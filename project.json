@@ -1,0 +1,124 @@
+{
+  "name": "TestAutomationProject",
+  "projectId": "59e12df4-cd50-498c-9598-3737d81f4670",
+  "description": "Creating first Test Automation Project as part of UiPath Test Suite Traininig",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiBankLoanApplication": "[1.0.2]",
+    "UiPath.System.Activities": "[23.4.3]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.6]"
+  },
+  "webServices": [
+    {
+      "namespace": "uibankapi",
+      "serviceDocument": "Services\\uibankapi.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "xnSgS891Zf9n8YYWpfd/YYk7JSIIGL3EceiiKnOHPOs="
+    },
+    {
+      "namespace": "_uibankapi",
+      "serviceDocument": "Services\\_uibankapi.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "KFQLy0jkFhftsdfUWSs6AyPmD1jUAbZshgL+K0v9A/8="
+    }
+  ],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "TestAutomationProject",
+      "uniqueReference": "I6RmKONd1AIKpaCZEK74Ic48Vt6o+dyNLfSCZQAuv1w="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.2.0",
+  "projectVersion": "1.0.156066507",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1383a9f3-da65-4cba-96f1-bd8232601bda",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9615767e-3c1c-4cc6-887e-18d5cd5fdab5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6552d45a-419a-4a30-bd06-8d8ed832d9f3",
+        "dataVariationFilePath": ".variations\\Loan Quotes_Loan Quotes.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "DataDrivenTestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "90e7adf3-d934-49e3-ac7f-3627c3509975",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "APITesting.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1b0a59c6-8112-42c6-9d27-fcee039c15b5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "ObjectRepository.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "189f76e6-374b-4ac4-b647-5706c0d94e0f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "ObjectRepositoryEdge.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "936a97fa-17bd-4955-a494-77e6f59246ff",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "AccountDeletion_Testing.xaml"
+      }
+    ],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
